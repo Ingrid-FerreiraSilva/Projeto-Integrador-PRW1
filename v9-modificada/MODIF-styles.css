@@ -1,0 +1,56 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+#canvas1{
+  border:5px solid #000;
+  background: #eee;
+  /*position:absolute;top:50%;left:50%;
+  transform:translate(-50%,-50%);*/
+  max-width:100%;max-height:100%;
+}
+#player,#layer1,#layer2,#layer3,#layer4,#layer5,#enemy_fly,#enemy_plant,#enemy_spider,#fire,#collisionAnimation,#lives{display:none}
+
+body {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  background: #111;
+  height: 100vh;
+}
+
+#uiPainel {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;               
+}
+
+#UI {
+  width: 220px;
+  background: #494949;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;      
+}
+
+#UI select,
+#UI button {        
+  padding: 6px 12px;
+  margin: 7px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+#UI select:hover,
+#UI button:hover {
+  background: #c7c7c7;
+}
+
+#UI p {
+  margin: 6px 0;
+  text-align: center;
+}
+
+
